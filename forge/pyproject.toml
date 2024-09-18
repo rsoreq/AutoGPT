@@ -80,7 +80,7 @@ pytest-cov = "^5.0.0"
 pytest-mock = "*"
 pytest-recording = "*"
 mock = "^5.1.0"
-vcrpy = { git = "https://github.com/Significant-Gravitas/vcrpy.git", rev = "master" }
+vcrpy = { git = "https://github.com/Significant-Gravitas/vcrpy.git", rev = "bfd15f9d06a516138b673cb481547f3352d9cc43" }
 
 
 [build-system]
