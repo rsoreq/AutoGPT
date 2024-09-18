@@ -6556,7 +6556,7 @@ yarl = "*"
 [package.source]
 type = "git"
 url = "https://github.com/Significant-Gravitas/vcrpy.git"
-reference = "master"
+reference = "bfd15f9d06a516138b673cb481547f3352d9cc43"
 resolved_reference = "bfd15f9d06a516138b673cb481547f3352d9cc43"
 
 [[package]]
@@ -7084,4 +7084,4 @@ benchmark = ["agbenchmark"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "acca6b5d67a64527f1d19f61e20a89eb228e066a80cd7701fd59cf19bb267eb8"
+content-hash = "dd20af3e8574d8e86c123007eda13e94843d698617a4947b07b803771e733052"
