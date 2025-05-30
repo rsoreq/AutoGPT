@@ -299,7 +299,7 @@ gitpython = "^3.1.32"
 google-api-python-client = "^2.116"
 google-cloud-logging = "^3.8.0"
 google-cloud-storage = "^2.13.0"
-groq = "^0.8.0"
+groq = "^0.26.0"
 gTTS = "^2.3.1"
 jinja2 = "^3.1.2"
 jsonschema = "*"
@@ -1836,13 +1836,13 @@ test = ["objgraph", "psutil"]
 
 [[package]]
 name = "groq"
-version = "0.8.0"
+version = "0.26.0"
 description = "The official Python library for the groq API"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "groq-0.8.0-py3-none-any.whl", hash = "sha256:f5e4e892d45001241a930db451e633ca1f0007e3f749deaa5d7360062fcd61e3"},
-    {file = "groq-0.8.0.tar.gz", hash = "sha256:37ceb2f706bd516d0bfcac8e89048a24b375172987a0d6bd9efb521c54f6deff"},
+    {file = "groq-0.26.0-py3-none-any.whl", hash = "sha256:4dc0900d506876ea39a9aa1985f12a51859bacf486fe939664248eff1f451af3"},
+    {file = "groq-0.26.0.tar.gz", hash = "sha256:1f1e50d26c6134f6fb580ea7002e8f9ff5c7c1685c9e0f50d71adecd039ae5d4"},
 ]
 
 [package.dependencies]
@@ -1851,7 +1851,7 @@ distro = ">=1.7.0,<2"
 httpx = ">=0.23.0,<1"
 pydantic = ">=1.9.0,<3"
 sniffio = "*"
-typing-extensions = ">=4.7,<5"
+typing-extensions = ">=4.10,<5"
 
 [[package]]
 name = "grpc-google-iam-v1"
@@ -6445,4 +6445,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "a7d04a4bf4ca7bc9446f2dda0f5b711749d96660c7adb70ebcc2f780d1bc7650"
+content-hash = "bb84f26d98cee68cbd4c28c9e76cc0368cd9213c651fb8970fa680e81252d68c"
