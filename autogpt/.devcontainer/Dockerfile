@@ -1,5 +1,5 @@
 # Use an official Python base image from the Docker Hub
-FROM python:3.10
+FROM python:3.13@sha256:eb120d016adcbc8bac194e15826bbb4f1d1569d298d8817bb5049ed5e59f41d9
 
 # Install browsers
 RUN apt-get update && apt-get install -y \
