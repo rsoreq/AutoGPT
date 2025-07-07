@@ -31,7 +31,7 @@ requests = "^2.32.3"
 ruff = "^0.5.2"
 pyright = "^1.1.371"
 isort = "^5.13.2"
-black = "^24.4.2"
+black = "^25.0.0"
 
 [build-system]
 requires = ["poetry-core"]
