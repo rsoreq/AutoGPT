@@ -78,7 +78,7 @@ domain: ""
 cloudSqlProxy:
   image:
     repository: gcr.io/cloud-sql-connectors/cloud-sql-proxy
-    tag: 2.11.4
+    tag: 2.18.1@sha256:1b7acb05d16ac5f3717e013ab37739b5604a3aeea24808f3db3fdbc11d92cebe
   instanceConnectionName: ""
   port: 5432
   resources:
