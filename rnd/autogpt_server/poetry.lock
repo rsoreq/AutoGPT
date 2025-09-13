@@ -320,7 +320,7 @@ selenium = "^4.13.0"
 sentry-sdk = "^1.40.4"
 spacy = "^3.0.0"
 sqlalchemy = "^2.0.19"
-tenacity = "^8.2.2"
+tenacity = "^9.0.0"
 tiktoken = ">=0.7.0,<1.0.0"
 toml = "^0.10.2"
 uvicorn = {version = ">=0.23.2,<1", extras = ["standard"]}
@@ -5399,13 +5399,13 @@ exceptiongroup = "*"
 
 [[package]]
 name = "tenacity"
-version = "8.5.0"
+version = "9.1.2"
 description = "Retry code until it succeeds"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 files = [
-    {file = "tenacity-8.5.0-py3-none-any.whl", hash = "sha256:b594c2a5945830c267ce6b79a166228323ed52718f30302c1359836112346687"},
-    {file = "tenacity-8.5.0.tar.gz", hash = "sha256:8bc6c0c8a09b31e6cad13c47afbed1a567518250a9a171418582ed8d9c20ca78"},
+    {file = "tenacity-9.1.2-py3-none-any.whl", hash = "sha256:f77bf36710d8b73a50b2dd155c97b870017ad21afe6ab300326b0371b3b05138"},
+    {file = "tenacity-9.1.2.tar.gz", hash = "sha256:1169d376c297e7de388d18b4481760d478b0e99a777cad3a9c86e556f4b697cb"},
 ]
 
 [package.extras]
@@ -6440,4 +6440,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "3b7f1172688f3112a50a28a69cc0c1de687ef94a9aa0978f9e0195df507646e1"
+content-hash = "bceb9d6e6ef779970990965e66d6906685f993e2baf07f322dc4567e6dc109c6"
