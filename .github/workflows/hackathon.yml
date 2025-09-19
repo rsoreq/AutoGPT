@@ -109,7 +109,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: v18.15
+          node-version: 22.19
 
       - name: Run benchmark
         run: |
