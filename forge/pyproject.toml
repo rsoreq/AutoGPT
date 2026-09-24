@@ -53,7 +53,7 @@ tenacity = "^8.2.2"
 tiktoken = ">=0.7.0,<1.0.0"
 toml = "^0.10.2"
 uvicorn = { extras = ["standard"], version = ">=0.23.2,<1" }
-watchdog = "4.0.2"
+watchdog = "6.0.0"
 webdriver-manager = "^4.0.1"
 
 [tool.poetry.extras]
