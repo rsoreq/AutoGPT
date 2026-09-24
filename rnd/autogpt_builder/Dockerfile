@@ -1,5 +1,5 @@
 # Base stage for both dev and prod
-FROM node:22-alpine AS base
+FROM node:24-alpine@sha256:ebfe2f90462722a7a4de65e91990e97fe0d401c70e0e762c5b53302f905ec1c1 AS base
 WORKDIR /app
 COPY autogpt_builder/package.json autogpt_builder/yarn.lock ./
 RUN yarn install --frozen-lockfile
@@ -17,7 +17,7 @@ COPY autogpt_builder/ .
 RUN npm run build
 
 # Prod stage
-FROM node:22-alpine AS prod
+FROM node:24-alpine@sha256:ebfe2f90462722a7a4de65e91990e97fe0d401c70e0e762c5b53302f905ec1c1 AS prod
 ENV NODE_ENV=production
 WORKDIR /app
 
