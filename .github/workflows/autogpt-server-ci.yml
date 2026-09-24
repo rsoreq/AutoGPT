@@ -37,7 +37,7 @@ jobs:
     steps:
       - name: Setup PostgreSQL
         if: matrix.db-platform == 'postgres'
-        uses: ikalnytskyi/action-setup-postgres@v6
+        uses: ikalnytskyi/action-setup-postgres@c4dda34aae1c821e3a771b68b73b13af3198a7ee # v8
         with:
           username: ${{ secrets.DB_USER || 'postgres' }}
           password: ${{ secrets.DB_PASS || 'postgres' }}
