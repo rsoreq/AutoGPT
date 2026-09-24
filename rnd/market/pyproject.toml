@@ -23,7 +23,7 @@ autogpt-libs = {path = "../autogpt_libs"}
 
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^8.2.1"
+pytest = "^9.0.0"
 pytest-asyncio = "^0.26.0"
 
 pytest-watcher = "^0.4.2"
