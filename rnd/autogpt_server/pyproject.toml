@@ -43,7 +43,7 @@ discord-py = "^2.4.0"
 
 autogpt-libs = {path = "../autogpt_libs"}
 [tool.poetry.group.dev.dependencies]
-cx-freeze = { git = "https://github.com/ntindle/cx_Freeze.git", rev = "main", develop = true }
+cx-freeze = { git = "https://github.com/ntindle/cx_Freeze.git", rev = "876fe77c97db749b7b0aed93c12142a7226ee7e4", develop = true }
 poethepoet = "^0.37.0"
 httpx = "^0.28.0"
 pytest-watcher = "^0.4.2"
